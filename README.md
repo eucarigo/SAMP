@@ -1,5 +1,5 @@
-<h1 style="display: flex; align-items: center; gap: 12px;">
-  <img src="samp.svg" alt="SAMP logo" height="64">
+<h1>
+  <img src="samp.svg" alt="SAMP logo" height="38" style="vertical-align: middle; transform: translateY(-2px);">
   SAMP
 </h1>
 
