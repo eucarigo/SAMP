@@ -1,5 +1,9 @@
 # Aviso legal
 
+## 0. Sobre este archivo
+
+Esto es una traducción lo más íntegra posible de `DISCLAIMER.md`, para facilitar la lectura de los hispanohablantes del fichero oficial. No obstante, este texto no sustituye ni invalida el archivo completo oficial, sino que lo complementa.
+
 ## 1. Conformidad con los Términos de Servicio de Spotify
 
 El presente software («SAMP») ha sido desarrollado exclusivamente con fines de control de volumen a nivel del sistema operativo. SAMP no modifica, descompila, extrae, reproduce ni distribuye contenido del servicio Spotify, ni altera el funcionamiento interno de su aplicación. Las únicas acciones que realiza son:
