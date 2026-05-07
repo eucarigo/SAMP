@@ -63,7 +63,7 @@ pip install pyqt6 qasync pycaw psutil winsdk comtypes
 
 ## ⚠️ Summary of Legal Notice
 
-Use of SAMP is at your own risk. Read the [full legal notice](DISCLAIMER) to understand the terms regarding compliance with Spotify's Terms of Service, limitation of liability, and license.
+Use of SAMP is at your own risk. Read the [full legal notice](DISCLAIMER.md) to understand the terms regarding compliance with Spotify's Terms of Service, limitation of liability, and license.
 
 In summary:
 
@@ -73,7 +73,7 @@ In summary:
 
 ### IMPORTANT
 
-> The text above **does not invalidate or replace** the [full legal notice](DISCLAIMER); it merely summarises it to make the official notice easier to understand for non‑specialist readers.
+> The text above **does not invalidate or replace** the [full legal notice](DISCLAIMER.md); it merely summarises it to make the official notice easier to understand for non‑specialist readers.
 
 ## 📄 License
 
@@ -99,7 +99,7 @@ The icons used in SAMP are drawn with SVG.
 ## 📧 Contact
 
 Developer: contact@eucarigo.com
-Legal notice: `DISCLAIMER`
+Legal notice: `DISCLAIMER.md`
 
 ---
 
