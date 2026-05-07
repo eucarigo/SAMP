@@ -1,5 +1,5 @@
 <h1>
-  <img src="samp.svg" alt="SAMP logo" width="48" style="vertical-align: middle;">
+  <img src="samp.svg" alt="SAMP logo" height="40" style="vertical-align: middle; margin-bottom: 4px;">
   SAMP
 </h1>
 
