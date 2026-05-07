@@ -1,4 +1,7 @@
-# SAMP
+<h1>
+  <img src="samp.svg" alt="SAMP logo" width="48" style="vertical-align: middle;">
+  SAMP
+</h1>
 
 **SAMP** (acronym for *Spotify Ad Muter Panel*) is a Windows application that automatically controls Spotify's volume based on whether it is playing a song or an ad.
 
