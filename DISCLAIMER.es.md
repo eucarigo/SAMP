@@ -55,9 +55,6 @@ SAMP no recopila, almacena ni transmite ningún dato personal del usuario ni inf
 ---
 
 **Fecha de vigencia**: mayo de 2026
-
 **Correo del desarrollador**: contact@eucarigo.com
-
 **GitHub del desarrollador**: https://github.com/eucarigo
-
 **Página del desarrollador**: https://eucarigo.com
