@@ -34,9 +34,9 @@
 Download and run `SAMP_Setup_1.3.0.exe` generated with Inno Setup. The setup wizard supports Express and Custom installations, desktop/Start Menu shortcut creation, and optional configuration of the *Start with Spotify* background task.
 
 ### 📦 Portable version (ZIP)
-1. Download ´SAMP_1.3.0_portable.zip´ from the latest release. 
+1. Download `SAMP_1.3.0_portable.zip` from the latest release. 
 2. Extract the contents of the ZIP file to any folder or portable drive.
-3. Run ´SAMP.exe´ directly — no installation or admin. privileges required.
+3. Run `SAMP.exe` directly — no installation or admin. privileges required.
 
 ### 🛠️ Running from Source
 1. Clone the repository.
