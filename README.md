@@ -6,7 +6,7 @@
 **SAMP** (*Spotify Ad Muter Panel*) is a Windows application that automatically controls Spotify's volume based on whether it is playing a song or an ad.
 **Current version**: 1.3.0
 
-#### ✨ Features
+## ✨ Features
 * 🎛️ **Independent controls**: Adjust song and ad volume levels separately.
 * 🔊 **System volume**: Manage Windows master volume directly from the main window.
 * 🔄 **Automatic state detection**: Detects Spotify playback state (song vs. ad) using the Windows Media Control API (GSMTC/SMTC).
@@ -20,7 +20,7 @@
 * 🔒 **Single-instance enforcement**: Uses `QLocalServer`/`QLocalSocket` to bring existing instances to focus rather than launching duplicates.
 * ℹ️ **In-app documentation**: Integrated About dialog covering usage tutorials, architecture notes, and legal details.
 
-#### 📋 Requirements
+## 📋 Requirements
 * **Operating System:** Windows 10 / 11 (64-bit, build 17763 or higher).
 * **CPU:** 1 GHz or higher (x86_64 architecture).
 * **RAM:** 512 MB minimum, 1 GB recommended.
@@ -28,12 +28,12 @@
 * **Spotify:** Desktop app installed and running.
 * **Python:** 3.8+ (3.12 recommended) — only required when running from source code.
 
-#### 🚀 Installation
+## 🚀 Installation
 
-##### 📦 Executable Installer (Recommended)
+### 📦 Executable Installer (Recommended)
 Download and run `SAMP_Setup_1.3.0.exe` generated with Inno Setup. The setup wizard supports Express and Custom installations, desktop/Start Menu shortcut creation, and optional configuration of the *Start with Spotify* background task.
 
-##### 🛠️ Running from Source
+### 🛠️ Running from Source
 1. Clone the repository.
 2. Install dependencies:
 ```bash
@@ -45,7 +45,7 @@ python main.py
 ```
 
 
-#### 🕹️ Usage
+## 🕹️ Usage
 
 1. Launch Spotify and SAMP (or let it start automatically).
 2. Adjust the sliders:
@@ -54,14 +54,14 @@ python main.py
 * **Ads**: Target volume for audio ads (set to 0% to mute completely).
 3. Manual slider adjustments during any state automatically save the new target volume for that state.
 
-##### ⚙️ Settings (`Ctrl+,`)
+### ⚙️ Settings (`Ctrl+,`)
 
 * Change application language (English, Spanish, German, French).
 * Change visual theme (Dark, Light, Forest).
 * Adjust check interval (default: 0.5 seconds).
 * Enable or disable **Start with Spotify** integration.
 
-##### 🔁 Start with Spotify Details
+### 🔁 Start with Spotify - Details
 
 * Registers or removes the `SAMP_StartWithSpotify` task in Windows Task Scheduler.
 * A persistent background PowerShell watcher script listens for `Spotify.exe` launch events and triggers SAMP after a 2-second buffer.
@@ -69,7 +69,7 @@ python main.py
 * The scheduled task runs under normal user privileges without requiring elevated rights for daily operation.
 * Restarting the current Windows session is recommended after enabling/disabling for changes to take full effect.
 
-#### ⚙️ How It Works
+## ⚙️ How It Works
 
 * Queries Spotify media transport controls via `winsdk` (`GSMTCM`).
 * Uses the availability heuristic of the "Next Track" media button to differentiate songs from unskippable ads.
