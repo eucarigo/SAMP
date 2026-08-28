@@ -52,5 +52,5 @@ SAMP does not collect, store, or transmit any personal data of the user or infor
 
 **Effective date**: May 2026\
 **Developer email**: contact@eucarigo.com\
-**Developer GitHub**: https://github.com/eucarigo\
+**Developer GitHub**: https://github.com/eucarigo \
 **Developer website**: https://eucarigo.com
