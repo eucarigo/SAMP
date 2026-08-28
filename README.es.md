@@ -131,6 +131,7 @@ Los iconos empleados en SAMP son dibujados mediante SVG.
 ## 📧 Contacto
 
 Desarrollador: contact@eucarigo.com
+
 Aviso legal: `DISCLAIMER`
 
 ---
